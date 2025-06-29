@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 27px;
+}
+
+body{
+    background: #1a1a1a;
+    width: 1000px;
+    height: 1500px;
+    color: #ffffff;
+}
+
+.container{
+    width: 800px;
+    height: 1500px;
+    position: absolute;
+    top: 200px;
+    left: 500px;
+}
+
+h1 p{
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 60px;
+    position: absolute;
+    bottom: 1500px;
+    left: 79px;
+    color: rgb(8, 238, 108);
+}
+
+#p1{
+    margin-top: 11px;
+    margin-bottom: 25px;
+    font-size: 30px;
+    color: rgb(255, 0, 76);
+}
+
+label{
+    text-align: start;
+    color: gold;
+    font-size: 27px;
+}
+
+#bill{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#tip{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+button{
+    position: absolute;
+    top: 190px;
+    left: 180px;
+    width: 170px;
+    height: 50px;
+    border-radius: 25px;
+    padding: 10px;
+    background-color: #07eae6;
+    border: none;
+}
+
+button:hover{
+    opacity: 0.7;
+}
+
+#total{
+    font-size: 40px;
+}
